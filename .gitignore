@@ -1,0 +1,7 @@
+# Using glob syntax.
+# All files that shouldn't be in the public repo MUST be added.
+syntax: glob 
+*~
+# no need to commit a config.php file and risk security
+config.php
+logs/*
