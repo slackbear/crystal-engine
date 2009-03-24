@@ -1,0 +1,29 @@
+<?php
+    /*
+      Package Name: Crystal Engine
+      File Name: config.php.sample (crystal engine global configuration)
+      Version: 0.0.1  
+      Author: Matthew Sporich <fusion@razorirc.com>
+      License: MIT License
+    */
+
+    // Site (these will eventually be moved into the database, 
+    // for now there here in the config file.)
+
+    $config['site']['name']     = "Crystal Engine";
+    $config['site']['slogan']   = "The easiest CMS ever built";
+    
+    // Database (MySQL, SQLite, PGSQL, etc)
+    
+    $config['db']['driver']     = "mysql";    // Default is MySQL and is the only supported datebase driver at this time.
+    $config['db']['name']       = "crystal";  // Database Name.
+    $config['db']['user']       = "root";     // Database User.  Must be anything but root.
+    $config['db']['pass']       = "";         // Password for the User.
+    $config['db']['prefix']     = "crystal_"; // table prefix.
+
+    // DONOT EDIT THE LINE BELOW
+    
+    // these options do nothing at the moment, but they are placeholders.
+
+    
+?>
