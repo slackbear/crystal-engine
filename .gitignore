@@ -5,3 +5,7 @@ syntax: glob
 # no need to commit a config.php file and risk security
 config.php
 logs/*
+db/*.db
+*.db
+db/*.sqlite3
+
